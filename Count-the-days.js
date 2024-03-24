@@ -28,3 +28,5 @@ function countDays(date) {
   }
   return `${daysFromToday} days`;
 }
+
+// or
