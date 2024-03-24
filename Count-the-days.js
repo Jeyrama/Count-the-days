@@ -14,3 +14,17 @@ Else, return "x days".
 
 
 // Solution
+
+function countDays(date) {
+  let today = new Date();
+  let one_day = 1000 * 60 * 60 * 24;
+  let daysFromToday = Math.round((date.getTime() - today.getTime()) / one_day);
+
+  if (daysFromToday < 0) {
+    return 'The day is in the past!';
+  }
+  if (daysFromToday == 0) {
+    return 'Today is the day!';
+  }
+  return `${daysFromToday} days`;
+}
