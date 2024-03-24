@@ -11,3 +11,6 @@ If the event is in the past, return "The day is in the past!"
 If the event is today, return "Today is the day!"
 Else, return "x days".
 */
+
+
+// Solution
